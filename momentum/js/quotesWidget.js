@@ -10,7 +10,7 @@ getRandomNum = (min, max) => {
 }
 
 getQuotes = async () => {
-    const quotes = '~/assets/quotes.json'
+    const quotes = 'assets/quotes.json'
     const res = await fetch(quotes)
     const data = await res.json()
     console.log(data);
